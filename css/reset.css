@@ -1,23 +1,27 @@
 /* ==============================
    SECTION 1: RESET CSS
    ============================== */
-   @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100&display=swap');
+
+  @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;1,200;1,300&display=swap');
+
  
-   html{
+ html{
     font-size: 62.5%; /*16 multipliter 62.5% = 10 rem */
+    background: linear-gradient(to top,rgba(0,0,0,.6) 50%,rgba(0,0,0,.6) 50%),
+    url(../asset/ARROW3.jpg) no-repeat fixed center center / cover;
 }
 body{
-    font: 1.6rem "sans-serif", "Montserrat";
+    font: 1.6rem  sans-serif;
     margin: 0;
     letter-spacing: 0.1rem; /* 1 px */
     line-height: 1.6;
-    background-color: var(--bgcolor-theme);
+   /* background-color: var(--bgcolor-theme); */
 }
 h1 ,h2 ,h3 ,p ,figure ,ul{
     margin: 0;
     padding: 0;
     list-style-type: none;
-    font-weight: normal;
+    font-weight: 200;
 }
 *{
     box-sizing: border-box;
